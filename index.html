@@ -14,8 +14,10 @@
       let list = document.querySelector("ul");
       chapters.forEach((e) => {
         let li = document.createElement("li");
+        let a = document.createElement("a");
         let href = "html/" + e + ".ipynb";
-        li.setAttribute("href", href);
+        a.setAttribute("href", href);
+        li.appendChild(a);
         list.appendChild(li);
       });
     </script>
