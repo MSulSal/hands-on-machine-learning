@@ -1,1 +1,1 @@
-const chapters = ["01_the_machine_learing_landscape"];
+const chapters = ["01_the_machine_learning_landscape"];
