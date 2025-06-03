@@ -11,7 +11,7 @@
     <ul id="toc"></ul>
     <script src="chapters_list.js"></script>
     <script>
-      let list = document.querySelector("ul");
+      let list = document.querySelector("#toc");
       chapters.forEach((e) => {
         let li = document.createElement("li");
         let a = document.createElement("a");
@@ -20,6 +20,7 @@
         li.appendChild(a);
         list.appendChild(li);
       });
+      document.body.appendChild(list);
     </script>
   </body>
 </html>
