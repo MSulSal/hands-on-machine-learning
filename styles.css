@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Remove bullets for a clean, professional look */
+ul#toc {
+  list-style: none; /* shorthand to disable list markers :contentReference[oaicite:13]{index=13} */
+  padding: 0;
+}
+
+/* Spacing between items */
+ul#toc li {
+  margin: 0.5rem 0;
+}
+
+/* Link styling */
+ul#toc a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+ul#toc a:hover {
+  text-decoration: underline;
+}

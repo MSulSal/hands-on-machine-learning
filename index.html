@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hands on ML</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Table of Contents</h1>
+    <ul id="toc"></ul>
+    <script src="chapters_list.js"></script>
+    <script>
+      let list = document.querySelector("ul");
+      chapters.forEach((e) => {
+        let li = document.createElement("li");
+        let href = "html/" + e + ".ipynb";
+        li.setAttribute("href", href);
+        list.appendChild(li);
+      });
+    </script>
+  </body>
+</html>
